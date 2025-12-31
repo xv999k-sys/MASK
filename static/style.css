@@ -1,0 +1,157 @@
+
+    body{
+      margin:0;
+      font-family:Tahoma, Arial;
+      background:linear-gradient(135deg,#4f46e5,#06b6d4);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+      transition: .4s ease;
+      position: relative;
+    }
+
+    .container{
+      background:white;
+      padding:30px;
+      border-radius:20px;
+      width:400px;
+      height: 180px;
+      text-align:center;
+      box-shadow:0 20px 40px rgba(0,0,0,.2);
+      position: absolute;
+      right: 60px;
+
+    }
+    
+    h1{
+      color: #ffffffea;
+      text-shadow: 1px 1px 0 #333;
+     position: absolute;
+     top: 100px;
+     right: 220px;
+ 
+    }
+
+    h2{
+      margin-top:0;
+      color:#333;
+    }
+
+  
+
+    #b22{
+
+      color: #ffffffea;
+      text-shadow: 1px 1px 0 #333;
+      direction: ltr;
+      line-height: 1.6;
+      width: 40%;
+      margin-top: 20px;
+      padding: 30px;
+      position: absolute;
+      top: 300px;
+      left: 20px;
+  }
+
+   #bb3{
+   
+   
+  color: #000000ea;
+  background-color: #ffffffcd;
+  font-family: 'Press Start 2P';
+  width: 50px;
+  height: 40px;
+  font-size: 16px;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  top: 10px;
+ right: 0px ;
+
+
+   }
+   #bb3:hover{
+      background-color:#4f46e5;
+      color: #ffffffea;
+      transition: background-color 0.5s ease;
+    }
+     
+    
+
+    
+
+    .upload-box{
+      margin-top:20px;
+      padding:20px;
+      border:2px dashed #6b7280;
+      border-radius:15px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    .upload-box:hover{
+      border-color:#4f46e5;
+    }
+
+    #imagePreview{
+      margin-top:20px;
+      width:100%;
+      max-height:250px;
+      display:none;
+      border-radius:10px;
+    }
+
+    button{
+      margin-top:15px;
+      padding:10px 20px;
+      border:none;
+      border-radius:10px;
+      background:#4f46e5;
+      color:white;
+      font-size:16px;
+      cursor:pointer;
+      transition:0.3s;
+    }
+
+    button:hover{
+      background:#4338ca;
+    }
+
+  
+
+  #fin{
+
+    background-color: #ffffff;
+ border: none;
+ border-radius: 200px;
+ height: 250px;
+ width: 250px;
+
+ position: absolute;
+
+ top: 20px;
+ left: 170px;
+
+
+
+  }
+
+  #hr1{
+
+    width: 47%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    position: absolute;
+    right:270px ;
+
+
+  }
+
+  #resultText{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
